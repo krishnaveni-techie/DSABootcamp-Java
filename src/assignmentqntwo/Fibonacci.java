@@ -1,0 +1,20 @@
+
+//7.To calculate Fibonacci Series up to n numbers.
+package assignmentqntwo;
+import java.util.Scanner;
+public class Fibonacci {
+static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("enter the value:");
+    int num=sc.nextInt();
+    int a=0;
+    int b=1;
+    for (int i=0 ; i<=num ;i++){
+        System.out.println(a + ",");
+        int next = a+b;
+        a=b;
+        b=next;
+    }
+}
+}
+
