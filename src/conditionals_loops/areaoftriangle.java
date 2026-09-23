@@ -12,6 +12,4 @@ public class areaoftriangle {
         double area=0.5* base * height;
         System.out.println("Area of triangle:" + area);
     }
-
-
 }
